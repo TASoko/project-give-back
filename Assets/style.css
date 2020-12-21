@@ -1,15 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+font-family:'Lato', sans-serif;
+}
+
+
+ .offset:before{
+	 display: block;
+	 content: "";
+	 height: 6rem;
+
+ }
+
+
+ /*--------navbar start-------------*/
+
 .topbar-responsive {
-    background: #393e42;
+    background: #646769;
     padding: 1rem 1.5rem;
   }
   
   .topbar-responsive .topbar-responsive-logo {
-    color: #fefefe;
+    color: #eff5f2;
     vertical-align: middle;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .topbar-responsive .menu {
-    background: #3e4246;
+    background:#646769;
   }
   
   .topbar-responsive .menu li:last-of-type {
@@ -19,10 +41,13 @@
   .topbar-responsive .menu a {
     color: #fefefe;
     transition: color 0.15s ease-in;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    
   }
   
   .topbar-responsive .menu a:hover {
-    color: #c6d1d8;
+    color: #eb1008;
   }
   
   @media screen and (max-width: 39.9375em) {
@@ -130,6 +155,12 @@
 
   
 /*-- Swiper --*/
+#waste  {
+	min-height:600px;
+	/* margin-top:100px;
+	margin-left:40px;
+	margin-right:50px; */
+}
 
   body {
     background: #fff;
@@ -157,7 +188,7 @@
 /*-------2nd swiper------*/
 
 
-body {
+/* body {
   position: relative;
   height: 100%;
 }
@@ -184,7 +215,7 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-}
+} */
 
 
 
