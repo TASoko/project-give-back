@@ -1,22 +1,11 @@
 // $(document).ready(function () {
 
-// var location = "";
 var APIkey = "AIzaSyDFqLVGxOY_BxTgchqz4BJbIbq4qIyET_g";
 
-// var queryURL = ``
-// https://maps.googleapis.com/maps/api/place/findplacefromtext/output?parameters
-
-//locationButton.addEventListener("click", () => {
 // Try HTML5 geolocation.
 let currentLoc;
 let map, infoWindow;
 
-// function resolveAfter2Seconds() {
-//   return new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve("resolved");
-//     }, 2000);
-//   });
   function initMap() {
 
     map = new google.maps.Map(document.getElementById("map"), {
@@ -61,9 +50,6 @@ let map, infoWindow;
     });
   }
   
-  // var curLoc = getLocation();
-  
-  // console.log(curLoc);
 
   function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
@@ -85,28 +71,11 @@ function posVar() {
 
 async function asyncCall() {
   console.log("calling");
-  // initMap ()
    var result = await posVar();
    console.log(result);
 };
 
 asyncCall();
-  // expected output: "resolved"
-
-
-  // function geoPromise(){
-  //   return new Promise(resolve => {
-  //      navigator.geolocation.getCurrentPosition(pos => { 
-  //        resolve(pos)
-  //      });  
-  //   });
-  // }
-  // async function getPos(){ 
-  //   console.log("calling get pos");
-  //   var thePos = await geoPromise();
-  //   console.log(thePos);
-  // }
-  // getPos();
 
 
 
