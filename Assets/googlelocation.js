@@ -1,4 +1,4 @@
-//$(document).ready(function () {
+// $(document).ready(function () {
 
 // var location = "";
 var APIkey = "AIzaSyDFqLVGxOY_BxTgchqz4BJbIbq4qIyET_g";
@@ -11,22 +11,26 @@ var APIkey = "AIzaSyDFqLVGxOY_BxTgchqz4BJbIbq4qIyET_g";
 let currentLoc;
 let map, infoWindow;
 
-function resolveAfter2Seconds() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("resolved");
-    }, 2000);
-  });
+// function resolveAfter2Seconds() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("resolved");
+//     }, 2000);
+//   });
   function initMap() {
+
     map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: -34.397, lng: 150.644 },
-      zoom: 6,
+      zoom: 8,
     });
     infoWindow = new google.maps.InfoWindow();
     const locationButton = document.createElement("button");
     locationButton.textContent = "Pan to Current Location";
-    map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
-
+    locationButton.classList.add("custom-map-control-button");
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(
+      locationButton
+    );
+  
     locationButton.addEventListener("click", () => {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
@@ -36,13 +40,15 @@ function resolveAfter2Seconds() {
               lng: position.coords.longitude,
             };
             currentLoc = pos;
+            console.log(pos);
+
+            console.log("currentLoc is:", currentLoc);
+
 
             infoWindow.setPosition(pos);
             infoWindow.setContent("Location found.");
             infoWindow.open(map);
             map.setCenter(pos);
-
-            console.log(position);
           },
           () => {
             handleLocationError(true, infoWindow, map.getCenter());
@@ -54,6 +60,10 @@ function resolveAfter2Seconds() {
       }
     });
   }
+  
+  // var curLoc = getLocation();
+  
+  // console.log(curLoc);
 
   function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
@@ -64,16 +74,42 @@ function resolveAfter2Seconds() {
     );
     infoWindow.open(map);
   }
-}
+
+function posVar() {
+  return new Promise(resolve => {
+    navigator.geolocation.getCurrentPosition(pos => { 
+      resolve(pos)
+    });  
+ });
+  }
 
 async function asyncCall() {
   console.log("calling");
-  const result = await resolveAfter2Seconds();
-  console.log(result);
-  // expected output: "resolved"
-}
+  // initMap ()
+   var result = await posVar();
+   console.log(result);
+};
 
 asyncCall();
+  // expected output: "resolved"
 
-console.log("currentLoc is:", currentLoc);
-//});
+
+  // function geoPromise(){
+  //   return new Promise(resolve => {
+  //      navigator.geolocation.getCurrentPosition(pos => { 
+  //        resolve(pos)
+  //      });  
+  //   });
+  // }
+  // async function getPos(){ 
+  //   console.log("calling get pos");
+  //   var thePos = await geoPromise();
+  //   console.log(thePos);
+  // }
+  // getPos();
+
+
+
+
+
+// });
