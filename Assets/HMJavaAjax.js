@@ -9,6 +9,7 @@ const settings = {
   },
 };
 $.ajax(settings).done(function (response) {
-  console.log(response);
+  console.log(response[0].region);
+  //console log to receive specific region based on array position. use for drop down population
 });
 //completes initial call to receive region/country listings.
