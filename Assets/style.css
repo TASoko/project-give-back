@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
 
-body {
+/* body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -15,153 +15,66 @@ body {
 	 content: "";
 	 height: 6rem;
 
+ } */
+
+
+ /*------sticky nav--------*/
+
+#sticky-container {
+  background:#646769;
+  padding: 1rem 1.5rem;
  }
 
-
- /*--------navbar start-------------*/
-
-.top-bar-bar.sticky {
-    background:#646769;
-    padding: 1rem 1.5rem;
-  }  
-  
-  .top-bar-left.top-bar-left {
-    background:#646769;
-    vertical-align: middle;
-    font-size: 34px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .top-bar ul  {
-    background:#646769;
-  }   
-  
-  .top-bar-right .menu li:last-of-type {
-    margin-right: 0;
-   
-    
-  }
-  
-  .top-bar-right .menu a {
-    color: #fefefe;
-    transition: color 0.15s ease-in;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    
-  }
-  
-  .top-bar-right .menu a:hover {
-    color: #eb1008;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive .menu a {
-      padding: 0.875rem 0;
-    }
-  }
-  
-  .top-bar-sticky .menu .top-bar-sticky-button {
-    color: #fefefe;
-    border-color: #fefefe;
-    border-radius: 5000px;
-    transition: color 0.15s ease-in, border-color 0.15s ease-in;
-  }
-  
-
-  .top-bar-right  .top-bar-title {
-      position: relative;
-      width: 100%;
-    }  
+.topbar-sticky-shrink {
+  padding: 2rem;
+  transition: padding 0.25s ease;
+  background: #646769;
+}
 
 
-  /* .top-bar-sticky .menu .top-bar-sticky-button:hover {
-    color: #8fa396;
-    border-color: #c6d1d8;
-  } 
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive .menu .topbar-responsive-button {
-      width: 100%;
-      margin: 0.875rem 0;
-    }
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive {
-      padding: 0.75rem;
-    }
+#top-bar-sticky-logo {
+  color: #fefefe;
+  font: weight 50;
+  font-size: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-    
+.topbar-sticky-shrink .menu {
+  background: #646769;
+  width: 100%;
+
+} 
 
 
-    /* .top-bar-right .top-bar-title span {
-      position: absolute;
-      right: 0;
-      border: 1px solid #fefefe;
-      border-radius: 5px;
-      padding: 0.25rem 0.45rem;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-    }
+.is-stuck .topbar-sticky-shrink {
+  padding: 1rem;
+  transition: padding 0.25s ease;
+}
 
-    .top-bar-responsive .top-bar-title span .menu-icon {
-      margin-bottom: 4px;
-    } */
-  
-  
-  @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes slideDown {
-    0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
-    }
-    100% {
-      -webkit-transform: translateY(0%);
-              transform: translateY(0%);
-    }
-  }
-  
-  @keyframes slideDown {
-    0% {
-      -webkit-transform: translateY(-100%);
-              transform: translateY(-100%);
-    }
-    100% {
-      -webkit-transform: translateY(0%);
-              transform: translateY(0%);
-    }
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .topbar-responsive-links {
-      -webkit-animation-fill-mode: both;
-              animation-fill-mode: both;
-      -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s;
-      width: 100%;
-      -webkit-animation: fadeIn 1s ease-in;
-              animation: fadeIn 1s ease-in;
-    }
-  }
+.top-bar ul  {
+   background:#646769;
+}  
+
+.top-bar-right .menu a {
+  color: #fefefe;
+  transition: color 0.15s ease-in;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.top-bar-right .menu a:hover {
+  color: #eb1008;
+}
+
+
+[data-sticky] {
+  width: 100%;
+} 
+
+
+
+/*-------------------*/
 
   
 
@@ -182,14 +95,14 @@ body {
 	
 } */
 
-  /* body {
+  body {
     background: #fff;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
     padding: 0;
-  }  */
+  }  
 
   .swiper-container {
     width: 100%;
@@ -332,27 +245,13 @@ body {
 
 
 
-
-
-
-
-  
-  /*------search buttons----*/
-
-/* .button {
-  border-radius: 15px;
-  margin-top: 25px;
-
-}   */
-
 /*----------footer-------*/
 .footer {
-  height: 90px;
+  height: 80px;
   bottom: 0px;
   width: 100%;
   position: fixed;
   background: #646769;
 }  
 
-=
  
