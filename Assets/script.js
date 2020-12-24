@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-/*---swiper 2---*/
-
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
     grabCursor: true,
@@ -30,6 +22,25 @@ var swiper = new Swiper('.swiper-container', {
 
    });
 
+
+   
+  /*----carousel---*/
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
   
-/*----swiper 2----*/
+
+
+
+/*--------callout middle--------*/
+
+$(function(){
+  $('[data-callout-hover-reveal]').hover(function(){
+    $(this).find('.callout-footer').slideDown(250);
+      },function(){
+    $(this).find('.callout-footer').slideUp(250);
+    });
+  })
+
 
