@@ -19,10 +19,14 @@ font-family:'Lato', sans-serif;
  } */
 
 
-.top-margin {
-  margin-top: 10%;
+/* .top-margin {
+  margin-top: 5%;
 }
 
+.top-margin2 {
+  margin-top: 10%;
+  margin-bottom: 5%; 
+} */
 
 
 /*------sticky nav--------*/
@@ -49,7 +53,6 @@ font-family:'Lato', sans-serif;
   .topbar-sticky-shrink .menu {
     background: #646769;
     width: 100%;
-  
   } 
   
   
@@ -84,48 +87,14 @@ font-family:'Lato', sans-serif;
 /*-------------------*/
 
 
-
-  /***---1st carousol --------*/
-
-  
-  body {
-      margin:0;
-      padding:0;
-      
-  }
-
-  .carousel {
-      perspective: 250px;
-    
-  }
-
-  .carousel .carousel-item {
-      width: 350px;
-      
-  }
-  
-.carouselimage {
-  height: 300px;
-}
-
-/*--------middle box -----------*/
-
-
-.callout-hover-reveal .callout-footer {
-  display: none;
-} 
-
-
-
-
  /***-----swiper ------*/
 
-
+/* 
   #waste  {
-    min-height:600px;
-    margin-top:700px;
+    min-height:500px;
+    margin-top:500px;
     
-  } 
+  }  */
   
   body {
       background: #fff;
@@ -140,155 +109,91 @@ font-family:'Lato', sans-serif;
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
+      margin-top: 50px; 
+      margin-bottom: 50px;
+    
     }
   
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
     }
 
 
 
 
+/*--------middle box -----------*/
 
-  /*-----search input and map----*/
+
+.callout-hover-reveal .callout-footer {
+  display: none;
+} 
 
 
-  .hero-search-filter {
-    background: url("https://images.pexels.com/photos/115095/pexels-photo-115095.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-    height: 300px;
-    margin: auto;
-    background-size: cover;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+
+/*--------------middle end-----*/
+
+
+/*------- image waste effect-------------*/
   
-  .hero-search-filter-logo {
-    margin-bottom: 2rem;
-  }
-  
-  .hero-search-filter-content {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 300px;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .hero-search-filter-menu {
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .hero-search-filter-menu li {
-      -webkit-flex-basis: 50%;
-          -ms-flex-preferred-size: 50%;
-              flex-basis: 50%;
-    }
-    .hero-search-filter-menu li a {
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-    }
-  }
-  
-  .hero-search-filter-menu a {
-    color: #fefefe;
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+
+/*------- image waste effect end -------------*/
+
+
+/*-----search buttons----*/
+
+.button {
+    font-size: 16px;
     font-weight: bold;
   }
   
-  .hero-search-filter-menu a .fa {
-    font-size: 1.125rem;
-    font-weight: normal;
-    text-decoration: none;
+  /*------ need map box and loc box-------*/
+  
+  
+.maptitles {
+    color: rgb(243, 4, 4);
+    font-size: 20px;
+  
   }
   
-  .hero-search-filter-menu a:hover {
-    text-decoration: underline;
-  }
+  /*------ need map box end-------*/
   
-  .hero-search-filter-form {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 90%;
-    background:#cacaca;
-    padding: 0.25rem;
-    border-radius: 5px;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   
-  .hero-search-filter-form .divider {
-    background-color: #cacaca;
-    width: 1px;
-  }
-  
-  .hero-search-filter-form label {
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    color: #3b3a3a;
-    font-weight: bold;
-  }
-  
-  .hero-search-filter-form input,
-  .hero-search-filter-form .button {
-    margin-bottom: 0;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .hero-search-filter-form {
-      width: 95%;
-    }
-  }
-  
-  .hero-search-filter-form-find,
-  .hero-search-filter-form-near {
-    border: 0;
-    box-shadow: none;
-  }
-  
-  .hero-search-filter-form-find:focus,
-  .hero-search-filter-form-near:focus {
-    border: 0;
-    box-shadow: none;
-  }
-/*------ need map box and loc box-------*/
-
-
-
-
-
-
-/*------ need map box and loc box-------*/
-
-
 
 /*------footer----*/
-
-
 .footer {
   height: 70px;
   bottom: 0px;
   width: 100%;
   position: fixed;
-  background: #646769;
+  background: #f0a402;
 }   
+
+.footer li {
+  color: rgb(248, 246, 244);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
