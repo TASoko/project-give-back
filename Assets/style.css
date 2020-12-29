@@ -165,16 +165,15 @@ font-family:'Lato', sans-serif;
 /*-----search buttons----*/
 
 .button {
-    font-size: 16px;
-    font-weight: bold;
-  }
+  
+}
   
   /*------ need map box and loc box-------*/
   
   
-.maptitles {
+.maptitle {
     color: rgb(243, 4, 4);
-    font-size: 20px;
+    font-size: 28px;
   
   }
   
@@ -183,7 +182,8 @@ font-family:'Lato', sans-serif;
   
 
 /*------footer----*/
-.footer {
+
+/* .footer {
   height: 70px;
   bottom: 0px;
   width: 100%;
@@ -195,5 +195,5 @@ font-family:'Lato', sans-serif;
   color: rgb(248, 246, 244);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-}
+} */
 
