@@ -197,6 +197,9 @@
 }
 #map {
   margin-bottom: 400px;
+  max-width: 90%;
+  height: 400px;
+  margin: 20px;
 }
   /*------ need map box end-------*/
   
