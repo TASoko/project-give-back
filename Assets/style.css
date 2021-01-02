@@ -2,85 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
 
 
-/* body {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-overflow-x: hidden;
-font-family:'Lato', sans-serif;
-}
 
-
- .offset:before{
-	 display: block;
-	 content: "";
-	 height: 6rem;
-
- } */
-
-
-/* .top-margin {
+.top-margin {
   margin-top: 5%;
 }
 
 .top-margin2 {
   margin-top: 10%;
-  margin-bottom: 5%; 
-} */
+ 
+}
 
 
 /*------sticky nav--------*/
 
+
 #sticky-container {
-    background:#646769;
-    padding: 1rem 1.5rem;
-   }
+  background:#646769;
+  padding: 1rem 1.5rem;
+ }
+
+.topbar-sticky-shrink {
+  padding: 2rem;
+  transition: padding 0.25s ease;
+  background: #646769;
+}
+
+
+#top-bar-sticky-logo {
+  background:#646769;
+  color:#fefefe;
+  font: weight 50;
+  font-size: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topbar-sticky-shrink .menu {
+  background: #646769;
+  width: 100%;
+
+} 
+
+.is-stuck .topbar-sticky-shrink {
+  padding: 1rem;
+  transition: padding 0.25s ease;
+}
+
+.top-bar {
+  background-color:transparent;
+}
+.top-bar ul  {
+   background:#646769;
+}  
+
+.top-bar-right .menu a {
+  background-color: #646769;
+  color: #fefefe;
+  transition: color 0.15s ease-in;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.top-bar-right .menu a:hover {
+  color: #eb1008;
+}
+/*---------new stick bar entry --------*/
+
+.title-bar {
+  background: #646769;
   
-  .topbar-sticky-shrink {
-    padding: 2rem;
-    transition: padding 0.25s ease;
-    background: #646769;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
   }
-  
-  
   #top-bar-sticky-logo {
-    color: #fefefe;
-    font: weight 50;
-    font-size: 36px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
   }
-  
-  .topbar-sticky-shrink .menu {
-    background: #646769;
-    width: 100%;
-  } 
-  
-  
-  .is-stuck .topbar-sticky-shrink {
-    padding: 1rem;
-    transition: padding 0.25s ease;
+}
+
+@media print, screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
   }
-  
-  .top-bar ul  {
-     background:#646769;
-  }  
-  
-  .top-bar-right .menu a {
-    color: #fefefe;
-    transition: color 0.15s ease-in;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  
-  .top-bar-right .menu a:hover {
-    color: #eb1008;
-  }
-  
-  
-  [data-sticky] {
-    width: 100%;
-  } 
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.sticky-container {
+  z-index: 5;
+} 
+
   
   
 
@@ -88,17 +103,10 @@ font-family:'Lato', sans-serif;
 
 
  /***-----swiper ------*/
-
-/* 
-  #waste  {
-    min-height:500px;
-    margin-top:500px;
-    
-  }  */
   
   body {
       background: #fff;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 14px;
       color: #000;
       margin: 0;
@@ -109,16 +117,15 @@ font-family:'Lato', sans-serif;
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
-      margin-top: 50px; 
-      margin-bottom: 50px;
-    
+      margin-top: 60px; 
+      margin-bottom: 60px;
     }
   
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      width: 350px;
-      height: 350px;
+      width: 370px;
+      height: 370px;
     }
 
 
@@ -137,6 +144,7 @@ font-family:'Lato', sans-serif;
 
 
 /*------- image waste effect-------------*/
+
   
 .featured-image-block-grid-header {
   margin-left: auto;
@@ -158,9 +166,12 @@ font-family:'Lato', sans-serif;
 
 .featured-image-block a:hover p { 
   color: #1779ba;
-  
 }
 
+.anchor {
+  height: 80px;
+  visibility: hidden;
+}
 /*------- image waste effect end -------------*/
 
 
@@ -171,7 +182,7 @@ font-family:'Lato', sans-serif;
   font-weight: bold;
 }
   
-  /*------ need map box and loc box-------*/
+/*------ need map box and loc box-------*/
   
 #map {
   max-width: 100%; 
@@ -183,9 +194,10 @@ font-family:'Lato', sans-serif;
   color: rgb(68, 65, 65);
   font-size: 20px;
   font-weight: bold;
-
 }
-  
+#map {
+  margin-bottom: 400px;
+}
   /*------ need map box end-------*/
   
   
