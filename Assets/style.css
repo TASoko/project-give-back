@@ -173,7 +173,12 @@ font-family:'Lato', sans-serif;
   
   /*------ need map box and loc box-------*/
   
-  
+#map {
+  max-width: 100%; 
+  height: 400px;
+  margin: 20px;
+} 
+
 .maptitles {
   color: rgb(68, 65, 65);
   font-size: 20px;
