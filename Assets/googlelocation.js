@@ -1,4 +1,4 @@
-// $(document).ready(function () {
+//  $(document).ready(function () {
 
 var APIkey = "AIzaSyDFqLVGxOY_BxTgchqz4BJbIbq4qIyET_g";
 
@@ -13,14 +13,14 @@ let map, infoWindow;
       zoom: 8,
     });
     infoWindow = new google.maps.InfoWindow();
-    const locationButton = document.createElement("button");
-    locationButton.textContent = "Pan to Current Location";
-    locationButton.classList.add("custom-map-control-button");
-    map.controls[google.maps.ControlPosition.TOP_CENTER].push(
-      locationButton
-    );
+    // const locationButton = document.createElement("button");
+    // locationButton.textContent = "Pan to Current Location";
+    // locationButton.classList.add("custom-map-control-button");
+    // map.controls[google.maps.ControlPosition.TOP_CENTER].push(
+    //   locationButton
+    // );
   
-    locationButton.addEventListener("click", () => {
+    // locationButton.addEventListener("click", () => {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
@@ -47,7 +47,7 @@ let map, infoWindow;
         // Browser doesn't support Geolocation
         handleLocationError(false, infoWindow, map.getCenter());
       }
-    });
+    // });
   }
   
 
@@ -70,7 +70,7 @@ function posVar() {
   }
 
 async function asyncCall() {
-  console.log("calling");
+  // console.log("calling");
    var result = await posVar();
    console.log(result);
 };
@@ -81,4 +81,4 @@ asyncCall();
 
 
 
-// });
+//  });
