@@ -9,7 +9,17 @@ const settings = {
   },
 };
 $.ajax(settings).done(function (response) {
-  console.log(response[0].region);
-  //console log to receive specific region based on array position. use for drop down population
+  for (var i = 0; i < response[0].countries.length; i++) {
+    console.log(response[0].countries[i].name);
+  }
+  for (var i = 0; i < response[1].countries.length; i++) {
+    console.log(response[1].countries[i].name);
+  }
+  for (var i = 0; i < response[2].countries.length; i++) {
+    console.log(response[2].countries[i].name);
+  }
+  for (var i = 0; i < response[3].countries.length; i++) {
+    console.log(response[3].countries[i].name);
+  }
 });
 //completes initial call to receive region/country listings.
