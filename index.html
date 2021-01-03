@@ -32,29 +32,10 @@
     ></script>
 
   <title>Project-Give-Back</title>
+
 </head>
 
 <body>
-
- <!-----sticky nav start --------->
-
-  <!-- <div data-sticky-container>
-    <div id="sticky-container" class="top-bar" data-sticky data-options="marginTop:0;" style="width:100% ; height:80px">
-      <div class="top-bar-left">
-        <a id="top-bar-sticky-logo" class="top-bar-sticky-logo" href="#"><strong>Project-Give-Back</strong></a>
-      </div>
-      <div class="top-bar-right">
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a href="#">Give Back</a></li>
-            <li><a href="#waste-effect">Waste Effect</a></li>
-            <li><a href="#search country">Search</a></li>
-            <li><a href="#about us">About Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <div data-sticky-container>
     <div id="sticky-container" class="top-bar" data-sticky data-options="marginTop:0;" style="width:100% ; height:80px">
@@ -77,8 +58,8 @@
 
             <li><a href="#">Give Back</a></li>
             <li><a href="#waste-effect">Waste Effect</a></li>
-            <li><a href="#search country">Search</a></li>
-            <li><a href="#about us">About Us</a></li>
+            <li><a href="#search-store">Search</a></li>
+            <li><a href="#about-us">About Us</a></li>
           </ul>
         </div>
       </div>
@@ -87,7 +68,7 @@
  
 <!-----swiper 1 start --------->
 
-<div class="swiper-container top-margin">
+<div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide" style="background-image:url(./Assets/image/giveback1.jpg)"></div>
     <div class="swiper-slide" style="background-image:url(./Assets/image/giveback2.jpg)"></div>
@@ -98,7 +79,7 @@
     <div class="swiper-slide" style="background-image:url(./Assets/image/giveback7.jpg)"></div>
     <div class="swiper-slide" style="background-image:url(./Assets/image/giveback8.jpg)"></div>
     <div class="swiper-slide" style="background-image:url(./Assets/image/giveback9.jpg)"></div>
-    <div class="swiper-slide" style="background-image:url(./Assets/image/hmtext1.png)"></div>
+    <div class="swiper-slide" style="background-image:url(./Assets/image/giveback10.jpg)"></div>
   </div>
   <!-- Add Pagination -->
   <div class="swiper-pagination"></div>
@@ -116,7 +97,7 @@
       <div class="callout callout-hover-reveal" data-callout-hover-reveal>
         <div class="callout-body">
           <h2>FASHION IS THE SECOND MOST POLLUTING INDUSTRY IN THE WORLD</h2>
-          <h3>For a Planet Beyond Next Season.</h3>
+          <h4>For a Planet Beyond Next Season</h4>
         </div>
       </div>
     </div>
@@ -130,12 +111,12 @@
 <div class="featured-image-block-grid ">
   <div class="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
     <h2>WASTE EFFECT</h2>
-    <p>JUST AS QUICKLY AS GARMENTS ARE MADE, THEY ARE WASTED</p>
+    <h5>JUST AS QUICKLY AS GARMENTS ARE MADE, THEY ARE WASTED</h5>
   </div>
   <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-4 ">
     <div class="featured-image-block cell">
      <a href="#">
-      <img src="Assets/image/recycle1.jpg" alt="waste clothes" width="600" height="440">
+      <img src="Assets/image/recycle1.jpeg" alt="waste clothes" width="600" height="440">
         <p class="text-center featured-image-block-title">Garment Production Exceeds
           100 Billion/year
         </p>
@@ -160,7 +141,7 @@
     
     <div class="featured-image-block cell">
      <a href="#">
-      <img src="Assets/image/recycle4.jpg" alt="waste clothes" width="600" height="440" />
+      <img src="Assets/image/recycle4.jpeg" alt="waste clothes" width="600" height="440" />
         <p class="text-center featured-image-block-title">Garbage truck of clothes 
           is Discarded or Burnt Every Second</p>
       </a>
@@ -170,7 +151,7 @@
      <a href="#">
       <img src="Assets/image/recycle5.jpg" alt="waste clothes" width="600" height="440" />
         <p class="text-center featured-image-block-title">The poor quality of Clothing
-          means that 73% ends up burnmt in landfilss
+          means that 73% ends up burn in landfills
         </p>
       </a>
     </div>
@@ -178,7 +159,7 @@
     <div class="featured-image-block cell">
      <a href="#">
       <img src="Assets/image/recycle6.jpg" alt="waste clothes" width="600" height="440" />
-        <p class="text-center featured-image-block-title">95% od discarded clothing can
+        <p class="text-center featured-image-block-title">95% of discarded clothing can
           be recycled to our advantage</p>
       </a>
     </div>
@@ -208,13 +189,13 @@
 
 
  <!-----middle break text --------------------------------->
-
- <div class="row top-margin2" style="text-align:center">
+ <div class="anchor2" id="search-store"></div>
+ <div class="row" style="text-align:center">
   <div class="column align-self-middle">
     <div class="callout callout-hover-reveal" data-callout-hover-reveal>
       <div class="callout-body">
         <h2>THERE IS NO PLANET B</h2>
-        <p>We need to create less waste</p>
+        <h5>Search Store Location</h5>
       </div>
     </div>
   </div>
@@ -227,8 +208,8 @@
 
  <!-----search  start --------->
 
- <div class="callout" >   
-  <div style="display:flex;justify-content: center;">
+<div class="callout">   
+  <div style="display:flex;justify-content: center;"> 
     <div class="search" style="width:30%"> 
       <button id="search country"  class="secondary expanded dropdown button "
         type="button" data-toggle="Country-dropdown-bottom-center">Country</button>
@@ -236,7 +217,7 @@
         data-dropdown data-auto-focus="true"></div>
     </div>
     <button style="margin-left:5px"id="search-button" class="secondary search button"><i class="fa fa-search"></i></button>
-  </div>
+   </div>
 </div> 
     <!-----search  end --------->
    
@@ -256,15 +237,28 @@
 
 
 
-     <div style="margin-bottom: 200px;"></div>
+    
  <!-----middle break text --------------------------------->
-
+ <div class="anchor3" id="about-us"></div>
      <div class="row" style="text-align:center">
       <div class="column align-self-middle">
         <div class="callout callout-hover-reveal" data-callout-hover-reveal>
           <div class="callout-body">
             <h2>WEAR | RETURN | REDUCE | RECYCLE</h2>
              <h4> About us</h4>
+             <P>OUR PURPOSE IT'S TO PROVIDE INFORMATION TO CONSUMERS ABOUT THE FAST FASHION
+                INDUSTRIES IMPACT AND EFFECT IT HAS ON OUR ENVIRONMENT.
+                WE WILL PROVIDE COMPANIES IN THE FASHION INDUSTRIES THAT ARE TRYING TO 
+                MINIMIZE THE DAMAGE AND TRY TO FIX THE MESS THEY STARTED.IN THESE ENVIRONMENTAL
+                CHANGING TIMES.IT'S VITAL WE DO OUR PART TO SAVE THE 
+                PLANET AND IT'S RESOURCES.OUR PURPOSE IT TO CONTINUE CREATING MOMENTUM 
+                TOWARDS THIS MOVEMENT BY EDUCATING AND TAKING PROACTIVE STEPS TOWARDS THE CAUSE.AS CONSUMERS,WHAT AND HOW WE BUY CAN POSITIVITY INFLUENCE
+                THE SUPPLY CHAIN. 
+                THOUGHFUL PURCHASING BENEFITS THE ENVIRONMENT AND REDUCES WASTE.
+                         BUY LESS,RECYCLE OR DONATE YOUR CLOTHES WHEN YOU'RE OVER THEM.
+                        BUY LESS, CHOOSE WELL, MAKE IT LAST.
+                         YOUR CLOTHES SHOULDN'T COST THE EARTH.
+             </P>
           </div>
         </div>
       </div>
@@ -274,7 +268,7 @@
 
   <!-----footer start --------->
 
-  <div style="margin-bottom: 100px;"></div>
+    <div style="margin-bottom: 300px;"></div> 
 
   <div class="columns shrink footer text-center">
                     <p></p>
