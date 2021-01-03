@@ -13,15 +13,9 @@ let map, infoWindow;
       zoom: 8,
     });
     infoWindow = new google.maps.InfoWindow();
-    // const locationButton = document.createElement("button");
-    // locationButton.textContent = "Pan to Current Location";
-    // locationButton.classList.add("custom-map-control-button");
-    // map.controls[google.maps.ControlPosition.TOP_CENTER].push(
-    //   locationButton
-    // );
-  
-    // locationButton.addEventListener("click", () => {
-      if (navigator.geolocation) {
+
+
+    if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
             const pos = {
@@ -70,7 +64,7 @@ function posVar() {
   }
 
 async function asyncCall() {
-  // console.log("calling");
+  
    var result = await posVar();
    console.log(result);
 };
