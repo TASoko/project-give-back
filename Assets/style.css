@@ -2,34 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
 
 
-
-.top-margin {
-  margin-top: 5%;
-}
-
-.top-margin2 {
-  margin-top: 10%;
- 
-}
-
-
 /*------sticky nav--------*/
 
 
 #sticky-container {
-  background:#646769;
+  background:#535557;
   padding: 1rem 1.5rem;
  }
 
 .topbar-sticky-shrink {
   padding: 2rem;
   transition: padding 0.25s ease;
-  background: #646769;
+  background: #535557;
 }
 
 
 #top-bar-sticky-logo {
-  background:#646769;
+  background:#535557;
   color:#fefefe;
   font: weight 50;
   font-size: 36px;
@@ -37,7 +26,7 @@
 }
 
 .topbar-sticky-shrink .menu {
-  background: #646769;
+  background: #535557;
   width: 100%;
 
 } 
@@ -51,11 +40,11 @@
   background-color:transparent;
 }
 .top-bar ul  {
-   background:#646769;
+   background:#535557;
 }  
 
 .top-bar-right .menu a {
-  background-color: #646769;
+  background-color: #535557;
   color: #fefefe;
   transition: color 0.15s ease-in;
   font-size: 20px;
@@ -69,7 +58,7 @@
 /*---------new stick bar entry --------*/
 
 .title-bar {
-  background: #646769;
+  background: #535557;
   
 }
 
@@ -95,9 +84,6 @@
 .sticky-container {
   z-index: 5;
 } 
-
-  
-  
 
 /*-------------------*/
 
@@ -128,9 +114,6 @@
       height: 370px;
     }
 
-
-
-
 /*--------middle box -----------*/
 
 
@@ -138,8 +121,24 @@
   display: none;
 } 
 
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(48, 47, 47);
+}
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(48, 47, 47);
+}
 
+h4 {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: rgb(48, 47, 47);
+}
 
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(48, 47, 47);
+}
 /*--------------middle end-----*/
 
 
@@ -172,10 +171,16 @@
   height: 80px;
   visibility: hidden;
 }
+
 /*------- image waste effect end -------------*/
 
 
 /*-----search buttons----*/
+/* .search {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+} */
 
 .button {
   font-size: 16px;
@@ -203,7 +208,15 @@
 }
   /*------ need map box end-------*/
   
-  
+
+/*--------about us------*/
+
+.anchor3 {
+  height: 50px;
+  visibility: hidden;
+}
+
+
 
 /*------footer----*/
 
@@ -212,7 +225,8 @@
   bottom: 0px;
   width: 100%;
   position: fixed;
-  background: #646769;
+  background:#535557;
+  
 }   
 
 .footer li {
