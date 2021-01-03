@@ -72,7 +72,17 @@ async function asyncCall() {
 asyncCall();
 
 
-
+//Google Places
+function places () {
+  // https:maps.googleapis.com/maps/api/place/findplacefromtext/json?input=H&M&inputtype=textquery&fields=formatted_address,name,opening_hours,geometry&key=APIkey
+  var queryURL = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Hennes%20&%20Mauritz&inputtype=textquery&fields=formatted_address,name,opening_hours,geometry&key=AIzaSyDFqLVGxOY_BxTgchqz4BJbIbq4qIyET_g`;
+  $.ajax({
+    method: "GET",
+    url: queryURL,
+  }).then(function (response) {
+    console.log(response.geometry.location.lat);
+  });
+  }
 
 
 //  });
