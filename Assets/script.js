@@ -23,7 +23,6 @@ var swiper = new Swiper('.swiper-container', {
    });
 
 
-   
 
 
 /*--------callout middle--------*/
