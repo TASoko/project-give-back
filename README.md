@@ -47,6 +47,9 @@ https://thelogicalindian.com/responsiblebusiness/hm-installs-in-store-recycling-
 
 https://www.youtube.com/watch?v=IscWfmbWWJc
 
+https://www.youtube.com/watch?v=xGF3ObOBbac
+
+https://www.youtube.com/watch?v=tLfNUD0-8ts
 
 Learn How I: CO Helps the Fashion Industry Close the Loop on Recycling
 

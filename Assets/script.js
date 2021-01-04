@@ -24,13 +24,6 @@ var swiper = new Swiper('.swiper-container', {
 
 
    
-  /*----carousel---*/
-
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
-  
-
 
 
 /*--------callout middle--------*/
