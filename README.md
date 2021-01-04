@@ -23,6 +23,7 @@ Front End -Technoly use :
 -Materilized Carousol -was going to use but was not working with over all layout of html-So decide to use a more simple 4 row images
 
 
+![GitHub](assets/image/dayclndr.png)
 
 Resources:
 
@@ -50,6 +51,16 @@ https://www.youtube.com/watch?v=IscWfmbWWJc
 https://www.youtube.com/watch?v=xGF3ObOBbac
 
 https://www.youtube.com/watch?v=tLfNUD0-8ts
+
+https://www.un.org/sustainabledevelopment/blog/2019/08/actnow-for-zero-waste-fashion/
+
+https://www.vogue.com/article/fashion-pact-sustainability-g7-summit-emmanuel-macron
+
+https://earth.org/sustainable-business-the-green-and-the-greenwash/
+
+https://circulareconomy.europa.eu/platform/en/commitments/hm-groups-vision-become-100-circular
+
+https://hmgroup.com/sustainability.html
 
 Learn How I: CO Helps the Fashion Industry Close the Loop on Recycling
 
