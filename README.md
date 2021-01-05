@@ -19,11 +19,11 @@ Front End -Technoly use :
 -Materilized Carousol -was going to use but was not working with over all layout of html-So decide to use a more simple 4 row images
 
 
-![GitHub](assets/image/homeimage.png)
-![GitHub](assets/image/wasteeefectimage.png)
-![GitHub](assets/image/searchimage.png)
-![GitHub](assets/image/aboutusimage.png)
-![GitHub](assets/image/geetinfimage.png)
+Screenshot ![GitHub](Assets/image/homeimage.png)
+Screenshot ![GitHub](Assets/image/wasteeefectimage.png)
+Screenshot ![GitHub](Assets/image/searchimage.png)
+Screenshot ![GitHub](Assets/image/aboutusimage.png)
+Screenshot  ![GitHub](Assets/image/geetinfimage.png)
 
 
 Resources:
