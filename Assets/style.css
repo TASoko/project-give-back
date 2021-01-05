@@ -204,7 +204,14 @@ h5 {
 
 #map {
   margin-bottom: 400px;
-  max-width: 90%;
+  max-width: 46%;
+  height: 400px;
+  margin: 20px;
+}
+
+#location {
+  margin-bottom: 400px;
+  max-width: 46%;
   height: 400px;
   margin: 20px;
 }
