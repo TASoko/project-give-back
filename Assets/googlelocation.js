@@ -92,14 +92,22 @@ function places() {
     });
     infoWindow1 = new google.maps.InfoWindow();
   });
-  const myLatLng = { lat: latStore, lng: lngStore };
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    title: "Hello World!",
-  });
+  // const myLatLng = { lat: latStore, lng: lngStore };
+  // new google.maps.Marker({
+  //   position: myLatLng,
+  //   map,
+  //   title: "Hello World!",
+  // });
 }
 places();
+
+var saveButton = document.querySelector("#countrySearchButton");
+saveButton.addEventListener("click", function () {
+  console.log("click");
+  var selectedCountry = document.querySelector("#regions").value;
+  localStorage.setItem("Country:", selectedCountry);
+
+})
 
 
 
