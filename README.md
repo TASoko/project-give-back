@@ -2,17 +2,13 @@
 
 
 PURPOSE :
-Our purpose of Project-Give-Back is to provide information to consumers about the fast fashion industries impact and effects it has on our 
-environment.
-We will try to provide consumer with companies in fashion and especially the fast fashion companies that are trying to minimais they're damage and try to fix the mess they started.
-We must demand more from this top fast fashion companies to become more sustainable.
-As consumers, what and how we buy can positivity influence the supply chain.Thoughtful purchasing benefits the environment and reduces waste.
-Buy less, recycle or donate your clothes when you're over them .
-Buy less, choose well, make it last.
-Your clothes shouldn't cost the Earth.
+Our purpose of Project-Give-Back is to provide information to consumers about the fast fashion industries impact and effects it has on our environment.
+We will try to provide consumer with companies in fashion and especially the fast fashion companies that are trying to minimais they're damage 
+
 
 WHAT'S FAST FASHION?
-FAST FASHION IS A TERM USED BY FASHION RETAILERS TO DESCRIBE INEXPENSIVE DESIGNERS THAT MOIVE QUICKLY FROM CATWALK TO STORES TI MEET NEW TRENDS. AS A RESULT OF THIS TRENDS, THE TRADITION OF INDROCTUCING NEW FASHION LINES ON A SAEASONAL BASIS IS BEING CHALLENGED.
+FAST FASHION IS A TERM USED BY FASHION RETAILERS TO DESCRIBE INEXPENSIVE DESIGNERS THAT MOVE QUICKLY FROM CATWALK TO STORES TO MEET NEW TRENDS.
+ AS A RESULT OF THIS TRENDS, THE TRADITION OF INDROCTUCING NEW FASHION LINES ON A SAEASONAL BASIS IS BEING CHALLENGED.
 
 
 Front End -Technoly use :
@@ -23,7 +19,12 @@ Front End -Technoly use :
 -Materilized Carousol -was going to use but was not working with over all layout of html-So decide to use a more simple 4 row images
 
 
-![GitHub](assets/image/dayclndr.png)
+Screenshot ![GitHub](Assets/image/homeimage.png)
+Screenshot ![GitHub](Assets/image/wasteeefectimage.png)
+Screenshot ![GitHub](Assets/image/searchimage.png)
+Screenshot ![GitHub](Assets/image/aboutusimage.png)
+Screenshot  ![GitHub](Assets/image/geetinfimage.png)
+
 
 Resources:
 

@@ -80,6 +80,7 @@
 
 /*-------------------*/
 
+
 /***-----swiper ------*/
 
 body {
@@ -163,6 +164,7 @@ h5 {
 
 /*------- image waste effect end -------------*/
 
+
 /*-----search buttons----*/
 
 .countrySearch {
@@ -199,6 +201,7 @@ h5 {
   font-size: 20px;
   font-weight: bold;
 }
+
 #map {
   margin-bottom: 400px;
   max-width: 46%;
@@ -212,7 +215,9 @@ h5 {
   height: 400px;
   margin: 20px;
 }
+
 /*------ need map box end-------*/
+  
 
 /*--------about us------*/
 
@@ -220,6 +225,14 @@ h5 {
   height: 50px;
   visibility: hidden;
 }
+
+/*--------get informed------*/
+
+.anchor4 {
+  height: 50px;
+  visibility: hidden;
+}
+
 
 /*------footer----*/
 
