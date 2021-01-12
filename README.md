@@ -1,5 +1,5 @@
-# project-give-back
 
+Title: Project-Give BACK 
 
 PURPOSE :
 Our purpose of Project-Give-Back is to provide information to consumers about the fast fashion industries impact and effects it has on our environment.
@@ -20,10 +20,10 @@ Front End -Technoly use :
 
 
 Screenshot ![GitHub](Assets/image/homeimage.png)
-Screenshot ![GitHub](Assets/image/wasteeefectimage.png)
+Screenshot ![GitHub](Assets/image/wasteeffectimage.png)
 Screenshot ![GitHub](Assets/image/searchimage.png)
 Screenshot ![GitHub](Assets/image/aboutusimage.png)
-Screenshot  ![GitHub](Assets/image/geetinfimage.png)
+Screenshot ![GitHub](Assets/image/getinfimage.png)
 
 
 Resources:

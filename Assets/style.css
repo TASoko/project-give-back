@@ -55,7 +55,7 @@
   background: #535557;
 }
 
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 1024px) {
   .no-js .top-bar {
     display: none;
   }
@@ -64,7 +64,7 @@
   }
 }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 1024px) {
   .no-js .title-bar {
     display: none;
   }
@@ -164,6 +164,14 @@ h5 {
 
 /*------- image waste effect end -------------*/
 
+
+
+
+/*-------search store------*/
+.anchor2 {
+  height: 50px;
+  visibility: hidden;
+}
 
 /*-----search buttons----*/
 
