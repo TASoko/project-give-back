@@ -101,7 +101,7 @@ function places() {
 }
 places();
 
-var saveButton = document.querySelector("#countrySearchButton");
+var saveButton = document.querySelector(".countrySearchButton");
 saveButton.addEventListener("click", function () {
   console.log("click");
   var selectedCountry = document.querySelector("#regions").value;
